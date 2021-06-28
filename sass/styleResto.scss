@@ -138,9 +138,9 @@
         width: 35px;
         height: 35px;
         margin-bottom: 2%;
-        background-image: url("icone/heart-regular.svg");
+        background-image: url("../icone/heart-regular.svg");
         &:hover {
-            background-image: url("icone/heart-solid.svg");
+            background-image: url("../icone/heart-solid.svg");
             transition: 1s steps(6, end);
         }
     }

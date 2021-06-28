@@ -712,9 +712,9 @@
  .heart {
      width: 37px;
      height: 37px;
-     background-image: url("icone/heart-regular.svg");
+     background-image: url("../icone/heart-regular.svg");
      &:hover {
-         background-image: url("icone/heart-solid.svg");
+         background-image: url("../icone/heart-solid.svg");
          transition: 1s steps(6, end);
      }
  }
