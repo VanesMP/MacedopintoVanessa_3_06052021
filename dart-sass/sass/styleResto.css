@@ -198,7 +198,7 @@ header {
 
 .titre {
   text-transform: uppercase;
-  font: 276 1.2em Roboto;
+  font: 300 1.2em Roboto;
   border-bottom: 3px solid #99E2D0;
   width: 12%;
   margin-top: 9%;
@@ -307,7 +307,7 @@ header {
 }
 
 .soustitre {
-  font: 350 1em Roboto;
+  font: 300 1em Roboto;
 }
 
 .intitule,
@@ -373,7 +373,7 @@ header {
   }
 
   .titre {
-    font: 250 1.7em Roboto;
+    font: 200 1.7em Roboto;
     width: 9%;
     margin-left: 5%;
     margin-top: 7%;
@@ -401,7 +401,7 @@ header {
   }
 
   .soustitre {
-    font: 350 1.2em Roboto;
+    font: 300 1.2em Roboto;
   }
 
   @keyframes check {
@@ -437,8 +437,8 @@ header {
   }
 
   .heart {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 
   .carte, .carte4 {
@@ -466,7 +466,6 @@ header {
   }
 
   .titre {
-    font: 250 1.2em Roboto;
     margin-left: 5%;
   }
 
@@ -485,10 +484,6 @@ header {
   .intitule,
 .prix {
     font: 700 1.1em Roboto;
-  }
-
-  .soustitre {
-    font: 350 1em Roboto;
   }
 
   .fa-check-circle {
@@ -599,8 +594,12 @@ footer {
 
 /************ MEDIA QUERIES TABLETTE : Footer **************/
 @media all and (min-width: 421px) and (max-width: 770px) {
+  footer {
+    height: 310px;
+  }
+
   .textFooter {
-    padding-top: 8%;
+    padding-top: 7%;
   }
 
   .logoFooter {
@@ -637,6 +636,10 @@ footer {
 }
 /*********** MEDIA QUERIES MOBILE : Footer *****************/
 @media all and (max-width: 420px) {
+  footer {
+    height: 235px;
+  }
+
   .textFooter {
     line-height: 1.9em;
     padding-top: 8%;

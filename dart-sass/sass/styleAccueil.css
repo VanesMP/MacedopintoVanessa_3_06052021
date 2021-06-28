@@ -47,7 +47,6 @@ form {
 /************ STYLE : Spinner loader **************/
 .boxSpinner {
   width: 43%;
-  height: 50px;
 }
 
 .spinner {
@@ -656,7 +655,7 @@ h1,
 
 .boxResto {
   width: 45%;
-  height: 365px;
+  height: 370px;
   border-radius: 25px;
   background: white;
   box-shadow: 0px 12px 15px #d2d0d061;
@@ -667,7 +666,7 @@ h1,
   -webkit-text-fill-color: transparent;
 }
 
-#imageRestoNouveau {
+.imageRestoNouveau {
   width: 100%;
   height: 275px;
   border-radius: 25px 25px 0px 0px;
@@ -712,7 +711,7 @@ h1,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 90%;
   margin: auto;
   margin-top: 3%;
@@ -764,10 +763,10 @@ h1,
 
   .boxResto {
     width: 100%;
-    height: 335px;
+    height: 332px;
   }
 
-  #imageRestoNouveau {
+  .imageRestoNouveau {
     height: 235px;
   }
 
@@ -781,16 +780,17 @@ h1,
 
   .text {
     line-height: 1.6em;
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 
   .textImg {
     width: 90%;
-    margin-top: 2%;
+    align-items: flex-start;
   }
 
-  .fa-heart:before {
-    font-size: 2.3em;
+  .heart {
+    width: 44px;
+    height: 44px;
   }
 }
 /***************** MEDIA QUERIES MOBILE : Section: Les restaurants *****************/
@@ -815,9 +815,9 @@ h1,
     height: 255px;
   }
 
-  #imageRestoNouveau {
+  .imageRestoNouveau {
     width: 100%;
-    height: 170px;
+    height: 185px;
   }
 
   .boxNouveau {
@@ -833,18 +833,18 @@ h1,
   .textImg {
     align-items: flex-start;
     width: 90%;
-    margin-top: 4%;
   }
 
   .text {
     display: flex;
     flex-direction: column;
     line-height: 1.6em;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
-  .fa-heart:before {
-    font-size: 1.7em;
+  .heart {
+    width: 32px;
+    height: 32px;
   }
 }
 /************ STYLE : Footer **************/
