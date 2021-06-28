@@ -160,7 +160,7 @@
  }
  /************STYLE TABLETTE :Spinner *********/
  
- @media all and (min-width: 421px) and (max-width: 810px) {
+ @media all and (min-width: 421px) and (max-width: 820px) {
      .spinner {
          width: 57%;
          margin-top: 53%;
@@ -196,7 +196,7 @@
  }
  /************ MEDIA QUERIES TABLETTE : Header **************/
  
- @media all and (min-width: 421px) and (max-width: 810px) {
+ @media all and (min-width: 421px) and (max-width: 820px) {
      .logo {
          width: 50%;
          height: 140px;
@@ -246,7 +246,7 @@
  }
  /************ MEDIA QUERIES TABLETTE : Rechercher ville **************/
  
- @media all and (min-width: 421px) and (max-width: 810px) {
+ @media all and (min-width: 421px) and (max-width: 820px) {
      .search {
          width: 30%;
          height: 90px;
@@ -319,13 +319,13 @@
      color: white;
      font-size: 1.4em;
      &:hover {
-         box-shadow: 0px 12px 15px #a29fa7;
+         box-shadow: 0px 12px 15px #a29fa7c0;
          background: linear-gradient(to bottom right, #ff8ade, #a26ae7);
      }
  }
  /************ MEDIA QUERIES TABLETTE : Slogan **************/
  
- @media all and (min-width: 421px) and (max-width: 810px) {
+ @media all and (min-width: 421px) and (max-width: 820px) {
      .slogan {
          height: 530px;
          justify-content: center;
@@ -394,7 +394,7 @@
  
  .fonctionnement {
      width: 100%;
-     height: 290px;
+     height: 285px;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -402,24 +402,25 @@
  
  .titreSection {
      font-size: 1.7em;
-     width: 15%;
+     width: 94%;
      height: 32px;
-     margin-left: 2%;
+     margin-left: auto;
+     padding-top: 3%;
  }
  
  .filtres {
-     width: 100%;
-     height: 120px;
+     width: 80%;
+     margin: auto;
      display: flex;
      flex-direction: row;
-     justify-content: space-evenly;
+     justify-content: space-between;
      align-items: flex-end;
  }
  
  .restaurant,
  .menu,
  .degustez {
-     width: 360px;
+     width: 25%;
      height: 80px;
      border-radius: 30px;
      box-shadow: 0px 12px 15px #d2d0d061;
@@ -458,7 +459,7 @@
  
  .chiffre {
      font-size: 1.4em;
-     width: 40%;
+     width: 35%;
      margin: auto;
      margin-top: 14%;
  }
@@ -492,7 +493,7 @@
  }
  /********** MEDIA QUERIES TABLETTE : Section : Fonctionnement ************/
  
- @media all and (min-width: 421px) and (max-width: 810px) {
+ @media all and (min-width: 421px) and (max-width: 820px) {
      .fonctionnement {
          height: 688px;
      }
@@ -504,7 +505,7 @@
          padding-top: 9%;
      }
      .filtres {
-         width: 93%;
+         width: 100%;
          height: 454px;
          margin: auto;
          margin-top: 8%;
@@ -514,7 +515,7 @@
      .restaurant,
      .menu,
      .degustez {
-         width: 67%;
+         width: 63%;
          height: 100px;
          margin-left: auto;
          margin-right: auto;
@@ -533,10 +534,7 @@
          width: 84%;
      }
      .chiffre {
-         font-size: 1.4em;
-         width: 40%;
-         margin: auto;
-         margin-top: 14%;
+         margin-top: 16%;
      }
      .fa-mobile-alt:before {
          font-size: 2.5em;
@@ -555,7 +553,7 @@
  
  @media all and (max-width: 420px) {
      .fonctionnement {
-         height: 415px;
+         height: 460px;
      }
      .titreSection {
          width: 90%;
@@ -564,17 +562,19 @@
          padding-top: 10%;
      }
      .filtres {
-         width: 93%;
-         height: 300px;
-         margin-top: 10%;
+         width: 100%;
+         height: 290px;
+         margin-top: 8%;
          flex-direction: column;
          justify-content: space-between;
      }
      .restaurant,
      .menu,
      .degustez {
-         width: 90%;
+         width: 80%;
          height: 80px;
+         margin-right: auto;
+         margin-left: auto;
          justify-content: space-evenly;
      }
      .bulle {
@@ -593,9 +593,6 @@
      }
      .chiffre {
          font-size: 1.2em;
-         width: 40%;
-         margin: auto;
-         margin-top: 14%;
      }
      .fa-mobile-alt:before {
          font-size: 2em;
@@ -614,7 +611,7 @@
  
  .lesRestaurants {
      width: 100%;
-     height: 935px;
+     height: 1070px;
      background: #f6f6f6;
  }
  
@@ -624,10 +621,11 @@
  
  .resto {
      width: 90%;
-     height: 800px;
+     height: 860px;
      display: flex;
      flex-direction: row;
      margin: auto;
+     margin-top: 2%;
      justify-content: space-around;
      flex-wrap: wrap;
      align-content: space-around;
@@ -672,19 +670,19 @@
  }
  
  .boxNouveau {
-     margin-left: 76%;
-     padding-top: 4%;
+     border-radius: 5px;
+     width: 120px;
+     height: 45px;
+     background: $tertiaire;
+     float: right;
+     margin: 3%;
  }
  
  .nouveau {
-     border-radius: 5px;
-     width: 125px;
-     height: 35px;
-     background: $tertiaire;
      color: #33957e;
-     text-align: center;
      font-size: 1.4em;
      padding-top: 6%;
+     text-align: center;
  }
  
  .textImg {
@@ -723,7 +721,7 @@
  }
  /********** MEDIA QUERIES TABLETTE : Section : Les restaurants ************/
  
- @media all and (min-width: 421px) and (max-width: 810px) {
+ @media all and (min-width: 421px) and (max-width: 820px) {
      .lesRestaurants {
          width: 100%;
          height: 1780px;
@@ -746,13 +744,10 @@
          height: 235px;
      }
      .boxNouveau {
-         margin-left: 76%;
-         padding-top: 4%;
+         height: 50px;
      }
      .nouveau {
-         width: 130px;
-         height: 40px;
-         font-size: 1.4em;
+         padding-top: 9%;
      }
      .text {
          line-height: 1.6em;
@@ -771,7 +766,6 @@
  @media all and (max-width: 420px) {
      .lesRestaurants {
          height: 1250px;
-         margin-top: 15%;
      }
      .titreResto {
          padding-top: 8%;
@@ -791,13 +785,12 @@
          height: 170px;
      }
      .boxNouveau {
-         margin-left: 70%;
-         padding-top: 4%;
+         width: 105px;
+         height: 45px;
      }
      .nouveau {
-         width: 95px;
-         height: 32px;
          font-size: 1.2em;
+         padding-top: 9%;
      }
      .textImg {
          align-items: flex-start;
@@ -818,7 +811,7 @@
  
  footer {
      width: 100%;
-     height: 320px;
+     height: 330px;
      background-color: #353535;
  }
  
