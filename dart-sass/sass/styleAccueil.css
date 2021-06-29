@@ -1,22 +1,11 @@
-/****************** typo *****************************/
-@font-face {
-  font-family: "Roboto";
-  src: url("RobotoRoboto-Black.ttf") format("truetype");
-  src: url("RobotoRoboto-Bold.ttf") format("truetype");
-  src: url("RobotoRoboto-Light.ttf") format("truetype");
-  src: url("RobotoRoboto-Medium.ttf") format("truetype");
-  src: url("RobotoRoboto-Regular.ttf") format("truetype");
-  src: url("RobotoRoboto-Thin.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Shrikhand";
-  src: url("ShrikhandShrikhand-Regular.ttf") format("truetype");
-}
+/*********** Google.Fonts *********/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 /************ Body ****************/
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   text-overflow: ellipsis;
 }
 
@@ -481,7 +470,7 @@ h1,
 }
 
 .choix {
-  font: 600 1.3em "Roboto";
+  font: 600 1.3em "Roboto", sans-serif;
 }
 
 .btn:hover {
@@ -558,7 +547,7 @@ h1,
   }
 
   .choix {
-    font: 600 1.6em "Roboto";
+    font: 600 1.6em "Roboto", sans-serif;
   }
 }
 /********** MEDIA QUERIES MOBILE : Section : Fonctionnement **************/
@@ -627,7 +616,7 @@ h1,
   }
 
   .choix {
-    font: 600 1.2em "Roboto";
+    font: 600 1.2em "Roboto", sans-serif;
   }
 }
 /************ STYLE : Section : Les restaurants **************/
@@ -867,7 +856,7 @@ footer {
 
 .logoFooter {
   filter: invert(100%);
-  width: 15%;
+  width: 20%;
 }
 
 .proposer,
@@ -929,11 +918,11 @@ footer {
   }
 
   .proposer {
-    width: 37%;
+    width: 40%;
   }
 
   .partenaire {
-    width: 31%;
+    width: 33%;
   }
 
   .fa-utensils:before {
@@ -948,7 +937,7 @@ footer {
 .textPartenaire,
 .mention,
 .contact {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 }
 /*********** MEDIA QUERIES MOBILE : Footer *****************/
@@ -969,7 +958,7 @@ footer {
 
   .logoFooter {
     filter: invert(100%);
-    width: 40%;
+    width: 42%;
   }
 
   .proposer,
@@ -981,15 +970,20 @@ footer {
   }
 
   .proposer {
-    width: 70%;
+    width: 67%;
   }
 
   .partenaire {
-    width: 59%;
+    width: 55%;
   }
 
   .fa-utensils:before {
-    font-size: 1.1em;
+    font-size: 1.2em;
+  }
+
+  .fa-hands-helping:before,
+.fa-utensils:before {
+    font-size: 1.2em;
   }
 }
 

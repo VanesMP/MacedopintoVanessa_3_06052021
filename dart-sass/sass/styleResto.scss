@@ -1,19 +1,7 @@
-    /****************** typo *****************************/
+    /****************** Google.fonts *****************************/
     
-    @font-face {
-        font-family: 'Roboto';
-        src: url("Roboto\Roboto-Black.ttf") format('truetype');
-        src: url("Roboto\Roboto-Bold.ttf") format('truetype');
-        src: url("Roboto\Roboto-Light.ttf") format('truetype');
-        src: url("Roboto\Roboto-Medium.ttf") format('truetype');
-        src: url("Roboto\Roboto-Regular.ttf") format('truetype');
-        src: url("Roboto\Roboto-Thin.ttf") format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'Shrikhand';
-        src: url("Shrikhand\Shrikhand-Regular.ttf") format('truetype');
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
     /************ Body ****************/
     
     $primaire: #9356DC;
@@ -127,7 +115,7 @@
     }
     
     .nomResto {
-        font: 1.8em Shrikhand;
+        font: 1.8em 'Shrikhand', cursive;
     }
     
     .fa-heart:before {
@@ -336,7 +324,7 @@
             height: 380px;
         }
         .nomResto {
-            font: 2.2em Shrikhand;
+            font-size: 2.2em;
         }
         .fa-heart:before {
             font-size: 1.6em;
@@ -415,7 +403,7 @@
             height: 250px;
         }
         .nomResto {
-            font: 1.7em Shrikhand;
+            font-size: 1.7em;
         }
         .fa-heart:before {
             font-size: 1.6em;

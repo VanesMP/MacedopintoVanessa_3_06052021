@@ -1,17 +1,6 @@
-/****************** typo *****************************/
-@font-face {
-  font-family: "Roboto";
-  src: url("RobotoRoboto-Black.ttf") format("truetype");
-  src: url("RobotoRoboto-Bold.ttf") format("truetype");
-  src: url("RobotoRoboto-Light.ttf") format("truetype");
-  src: url("RobotoRoboto-Medium.ttf") format("truetype");
-  src: url("RobotoRoboto-Regular.ttf") format("truetype");
-  src: url("RobotoRoboto-Thin.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Shrikhand";
-  src: url("ShrikhandShrikhand-Regular.ttf") format("truetype");
-}
+/****************** Google.fonts *****************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 /************ Body ****************/
 * {
   margin: 0;
@@ -127,7 +116,7 @@ header {
 }
 
 .nomResto {
-  font: 1.8em Shrikhand;
+  font: 1.8em "Shrikhand", cursive;
 }
 
 .fa-heart:before {
@@ -334,7 +323,7 @@ header {
   }
 
   .nomResto {
-    font: 2.2em Shrikhand;
+    font-size: 2.2em;
   }
 
   .fa-heart:before {
@@ -429,7 +418,7 @@ header {
   }
 
   .nomResto {
-    font: 1.7em Shrikhand;
+    font-size: 1.7em;
   }
 
   .fa-heart:before {
