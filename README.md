@@ -20,9 +20,7 @@ que les plats soient prêts à leur arrivée. Finis, les temps d'attente au rest
 * Mettre en place une structure de navigation pour un site web
 * Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started 
 
 ### 1. Installation
 
